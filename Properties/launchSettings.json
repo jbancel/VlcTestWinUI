@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "VlcTest (Package)": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": true
+    },
+    "VlcTest (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
