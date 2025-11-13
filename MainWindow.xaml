@@ -10,7 +10,9 @@
     mc:Ignorable="d"
     Title="VlcTest">
     
-    <Grid x:Name="Ui_MainGrid"/>
+    <Grid>
+        <lvs:VideoView x:Name="VideoView" MediaPlayer="{Binding MediaPlayer}" Margin="150"/>
+    </Grid>
 </Window>
     
     
